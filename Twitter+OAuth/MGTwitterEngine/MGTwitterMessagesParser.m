@@ -8,6 +8,10 @@
 
 #import "MGTwitterMessagesParser.h"
 
+@interface MGTwitterStatusesParser (Private)
+- (void)parser:(NSXMLParser *)theParser didEndElement:(NSString *)elementName 
+  namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName;
+@end
 
 @implementation MGTwitterMessagesParser
 
