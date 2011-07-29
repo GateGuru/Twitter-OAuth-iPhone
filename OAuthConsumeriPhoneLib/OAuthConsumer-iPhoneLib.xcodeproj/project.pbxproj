@@ -290,6 +290,7 @@
 				GCC_PREFIX_HEADER = OAuthConsumer_iPhone_Prefix.pch;
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = OAuthConsumer_iPhone;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -305,6 +306,7 @@
 				INSTALL_PATH = /usr/local/lib;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PRODUCT_NAME = OAuthConsumer_iPhone;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
